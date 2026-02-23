@@ -10,7 +10,7 @@ All references below are to the arxiv version of this paper, available soon.
   - `MinInd`: returns the minimum index of a nontrivial element in a finite transitive group.
   - `IsConcentrated`: returns a boolean detecting whether a finite transitive group is concentrated in the sense of [[ALOWW25]](https://arxiv.org/abs/2501.18574). Some options are included to restrict the normal subgroups being considered.
   - `IsSemiConcentrated`: returns a boolean detecting whether a finite transitive group is concentrated in the sense of Definition 1.1. Some options are included to restrict the normal subgroups being considered.
-- The file then checks the conditions of Proposition 6.4 for all transitive nilpotent groups of degree less than 24 over any base field linearly disjoint with Q(\zeta_d), where d is the product of orders of all minimum index elements. For each group satisfying these conditions, the Magma code returns a string with the following information
+- The file then checks the conditions of Proposition 6.4 for all transitive nilpotent groups of degree less than 24 over any base field linearly disjoint with Q(\zeta_d), where d is the least common mulitple of orders of all minimum index elements. For each group satisfying these conditions, the Magma code returns a string with the following information
   - `nTd`: the transitive group label for the group
   - `a(G)`: the minimum index of a nontrivial element of nTd
   -  `x \le b \le y`: bounds for the parameter b appear in the asymptotic in Conjecture 1, which is one more than the degree of the polynomial in Theorem 1.6
